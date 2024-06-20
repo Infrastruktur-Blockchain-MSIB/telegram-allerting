@@ -9,7 +9,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-TELEGRAM_BOT_TOKEN = "{token}"
+TELEGRAM_BOT_TOKEN = "{token_api}"
 token=pd.read_csv('telegram/token.csv')
 token=token['0'].tolist()
 def tambah():
